@@ -53,9 +53,18 @@ h2 {
     font-family: "Montserrat", sans-serif;
 
 }
-button a {text-decoration: none;}
-button a:link {color: white;}
-button a:visited {color: white;}
+
+button a {
+    text-decoration: none;
+}
+
+button a:link {
+    color: white;
+}
+
+button a:visited {
+    color: white;
+}
 
 
 .sottotitoli h2 {
@@ -89,7 +98,10 @@ button a:visited {color: white;}
 #arancione h2 {
     color: white;
 }
-#arancione p {color: white;}
+
+#arancione p {
+    color: white;
+}
 
 #arancione div {
     font-family: "Montserrat", sans-serif;
@@ -100,7 +112,7 @@ button a:visited {color: white;}
 
 .sezioni {
 
-    width: 300px;
+    width: 80%;
     margin: 0 auto;
     margin-top: 40px;
     border: 1px solid #dee1e3;
@@ -117,19 +129,31 @@ button a:visited {color: white;}
     padding-top: 10px;
 }
 
-#azzurro { background-color: #25a2c3;
+#azzurro {
+    background-color: #25a2c3;
     padding: 40px;
-    margin-top: 40px;}
-    #azzurro h2 {
-        color: white;
-        padding-bottom: 20px;
-    }
-    #azzurro p {color: #c8e7f0;}
+    margin-top: 40px;
+}
 
-a:link {color: #c8e7f0;}
-a:visited {color: #c8e7f0;}
-.linea {border-top: 2px solid  #c8e7f0;
-padding-top: 20px;
-margin-top: 20px;}
+#azzurro h2 {
+    color: white;
+    padding-bottom: 20px;
+}
 
+#azzurro p {
+    color: #c8e7f0;
+}
 
+a:link {
+    color: #c8e7f0;
+}
+
+a:visited {
+    color: #c8e7f0;
+}
+
+.linea {
+    border-top: 2px solid #c8e7f0;
+    padding-top: 20px;
+    margin-top: 20px;
+}
